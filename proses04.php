@@ -1,0 +1,149 @@
+<?php
+    if(isset($_POST['Input'])){
+        $nama=$_POST['nama'];
+        $ttl=$_POST['ttl'];
+        $jkel=$_POST['jkel'];
+        $alamat=$_POST['alamat'];
+        $agama=$_POST['agama'];
+        $status=$_POST['status'];
+        $pekerjaan=$_POST['pekerjaan'];
+        $kewarganegaraan=$_POST['kewarganegaraan'];
+
+        echo "<h2>DATA DIRI SESUAI KTP</h2><br></br>";
+        echo "<table>
+                <tr>
+                <td>Nama</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>:</td>
+                <td>$nama</td>
+                </tr>
+              </table>";
+        echo "<table>
+                <tr>
+                <td>Tempat/Tgl Lahir</td>
+                <td></td>
+                <td>:</td>
+                <td>$ttl</td>
+                </tr>
+             </table>";
+        echo "<table>
+                <tr>
+                <td>Jenis Kelamin</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>:</td>
+                <td>$jkel</td>
+                </tr>
+             </table>";
+        echo "<table>
+                <tr>
+                <td>Alamat</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>:</td>
+                <td>$alamat</td>
+                </tr>
+             </table>";
+        echo "<table>
+                <tr>
+                <td>Agama</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>:</td>
+                <td>$agama</td>
+                </tr>
+             </table>";
+        echo "<table>
+                <tr>
+                <td>Status Perkawinan</td>
+                <td>:</td>
+                <td>$status</td>
+                </tr>
+              </table>";
+        echo "<table>
+                <tr>
+                <td>Pekerjaan</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>:</td>
+                <td>$pekerjaan</td>
+                </tr>
+             </table>";
+        echo "<table>
+                <tr>
+                <td>Kewarganegaraan</td>
+                <td></td>
+                <td>:</td>
+                <td>$kewarganegaraan</td>
+                </tr>
+             </table>";
+    }
+?>
